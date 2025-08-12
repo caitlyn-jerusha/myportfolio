@@ -407,9 +407,9 @@ ul {
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  gap: 15px;
+  justify-content: left;
+  margin-top: 50px;
+  gap: 0px;
 }
 
 .social-icons a {
@@ -428,7 +428,7 @@ ul {
 
 .social-icons a:hover {
   transform: translateY(-5px);
-  background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+  background: linear-gradient(to left, var(--gradient-start), var(--gradient-end));
   color: var(--white);
 }
 
@@ -800,7 +800,7 @@ ul {
 
 .cv-preview {
   width: 100%;
-  height: 600px;
+  height: 1200px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: var(--box-shadow);
@@ -878,7 +878,7 @@ ul {
 .timeline-content .time {
   display: inline-block;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--primary-color);
   background-color: rgba(142, 68, 173, 0.1);
   padding: 3px 10px;
@@ -894,15 +894,16 @@ ul {
 
 .testimonials-slider {
   position: relative;
-  max-width: 800px;
+  max-width: 2000px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .testimonial-item {
   opacity: 0;
-  position: absolute;
+  position: relative;
   width: 100%;
+  height: 100%;
   transition: opacity 0.5s ease;
   pointer-events: none;
 }
@@ -915,10 +916,10 @@ ul {
 
 .testimonial-content {
   background-color: var(--white);
-  padding: 40px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 10px;
   box-shadow: var(--box-shadow);
-  text-align: center;
+  text-align: justified;
   position: relative;
 }
 
@@ -932,10 +933,10 @@ ul {
 }
 
 .testimonial-content p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 25px;
   color: var(--text-color);
-  line-height: 1.8;
+  line-height: 1.2;
 }
 
 .client-info h4 {
@@ -1055,3 +1056,13 @@ footer {
 
 .footer-logo .logo-text {
   font-size: 2.5rem;
+  
+ 
+    <div style="position: relative; width: 100%; height: 1200; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: relative; width: 200%; height: 1200; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGv37AzFdc/Knbff_x9eBiog71gwvvQAg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGv37AzFdc&#x2F;Knbff_x9eBiog71gwvvQAg&#x2F;view?utm_content=DAGv37AzFdc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Resume for Caitlyn J Naidoo.pdf</a> by Caitlyn Naidoo
